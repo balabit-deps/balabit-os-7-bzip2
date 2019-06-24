@@ -1,3 +1,12 @@
+bzip2 (1.0.6-8.1ubuntu0.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: out-of-bounds write
+    - debian/patches/CVE-2019-12900.patch: make sure
+      nSelectors is not out of range in decompress.c.
+    - CVE-2019-12900
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Mon, 24 Jun 2019 15:56:48 -0300
+
 bzip2 (1.0.6-8.1) unstable; urgency=medium
 
   * Non-maintainer upload.
