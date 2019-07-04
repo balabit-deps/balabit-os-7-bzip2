@@ -3,3 +3,4 @@
 30-bzip2-harden.patch
 bzip2recover-CVE-2016-3189.patch
 CVE-2019-12900.patch
+Accept-as-many-selectors-as-the-file-format-allows.patch

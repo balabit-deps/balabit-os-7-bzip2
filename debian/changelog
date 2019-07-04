@@ -1,3 +1,11 @@
+bzip2 (1.0.6-8.1ubuntu0.2) bionic-security; urgency=medium
+
+  * SECURITY REGRESSION: bzip2 update for CVE-2019-12900 causes some files raises
+    incorrect CRC error. (LP: #1834494)
+    - debian/patches/Accept-as-many-selectors-as-selectors*.patch
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Thu, 04 Jul 2019 09:35:36 -0300
+
 bzip2 (1.0.6-8.1ubuntu0.1) bionic-security; urgency=medium
 
   * SECURITY UPDATE: out-of-bounds write
